@@ -40,3 +40,15 @@ The dataset contains the height and weight of 500 males and 500 females.
 For regression problems, I have used two metrics to compute the model performance. They are RMSE (Root Mean Square Error) and R-Squared Value.
 
 ### RMSE
+The RMSE value has been found to be 12.1781. It means the standard deviation for our prediction is 12.1781. So, sometimes we expect the predictions to be off by more than 12.1781 and other times we expect less than 12.1781.
+
+
+##  R2 Score
+
+R2 Score is another metric to evaluate performance of a regression model. It is also called coefficient of determination. It gives us an idea of goodness of fit for the linear regression models. It indicates the percentage of variance that is explained by the model. 
+
+Mathematically, 
+R2 Score = Explained Variation/Total Variation
+
+In general, the higher the R2 Score value, the better the model learned the data. Usually, its value ranges from 0 to 1. So, we want its value to be as close to 1. In this case R2 is computed as 0.8577 which pretty much close to 1.
+
