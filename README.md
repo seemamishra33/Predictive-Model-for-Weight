@@ -52,3 +52,7 @@ R2 Score = Explained Variation/Total Variation
 
 In general, the higher the R2 Score value, the better the model learned the data. Usually, its value ranges from 0 to 1. So, we want its value to be as close to 1. In this case R2 is computed as 0.8577 which pretty much close to 1.
 
+
+## Training Error and Testing Error
+The calculate training set score as 0.8542. Similarly, the calculate test set score as 0.8570. 
+The scores are reasonably good. So, the model does learn the relationships appropriately from the training data and perform well on the testing dataset. 
